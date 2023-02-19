@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - master
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   hello: 
@@ -17,4 +17,3 @@ jobs:
       - name: hello world 
         run: echo "Hello World Actions"
         shell: bash
-                   
